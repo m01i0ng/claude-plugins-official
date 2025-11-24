@@ -96,6 +96,20 @@ When adding new plugins to this directory:
 4. Document all commands and agents
 5. Provide usage examples
 
+## Security Considerations
+
+Anthropic has curated some of the most popular plugins from across the web in this marketplace, but you are responsible for reviewing any plugins before installing them to your machine.
+
+**USE AT YOUR OWN RISK**: Claude Code plugins can execute arbitrary shell commands on your system. By using plugins, you acknowledge that:
+
+- You are solely responsible for reviewing and understanding any plugin before installation
+- Plugins can include hooks, commands, and agents that may modify, delete, or access any files your user account can access
+- Malicious or poorly written plugins can cause data loss or system damage
+- Anthropic provides no warranty and assumes no liability for any damages resulting from plugin usage
+- You should thoroughly test plugins in a safe environment before production use
+
+Always review plugin source code and understand what commands and hooks a plugin configures before adding it to your system.
+
 ## Learn More
 
 - [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code/overview)

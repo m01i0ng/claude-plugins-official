@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-code-marketplace",
+  "name": "claude-code-official",
   "version": "1.0.0",
   "description": "Official marketplace for high-quality Claude Code extensions including development tools, productivity plugins, and MCP integrations",
   "owner": {
